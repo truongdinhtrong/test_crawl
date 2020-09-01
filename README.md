@@ -23,11 +23,11 @@ pip3.6 install pandas
 ```
 pytyhon3.6 get_all_url_top_sellers.py
 ```
-2. Get all data from list urls.csv
+2. Get all data from list links in file urls.csv
 ```
 pytyhon3.6 get_best_sellers_book_from_list_urls.py
 ```
-3. Combine all file data excel to dataset:
+3. Combine all data excel files to a dataset:
 ```
 pytyhon3.6 combine_all_file_data_excel.py
 ```
