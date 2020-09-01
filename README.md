@@ -1,18 +1,18 @@
-# install python 3.6 from CentOS:
+# Test Crawl
+
+## install python 3.6 from CentOS:
 
 yum install gcc bzip2-devel libffi-devel openssl-devel 
 
 ./configure --enable-optimizations 
- 
-# make altinstall is used to prevent replacing the default python binary file /usr/bin/python
-
+  
 make altinstall 
 
-# install pandas:
+## install pandas:
 
 pip3.6 install pandas
 
-# how it works
+## how it works
 
 1. Get all links best sellers:
 pytyhon3.6 get_all_url_top_sellers.py
